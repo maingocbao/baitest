@@ -334,9 +334,9 @@ export default function App() {
       </div>
 
       {edittingRow ? (
-        <button onClick={handleChangeUpdate}>sửa</button>
+        <button onClick={handleChangeUpdate}>Sửa</button>
       ) : (
-        <button onClick={handleSumbit}>thêm</button>
+        <button onClick={handleSumbit}>Thêm</button>
       )}
     </div>
   );
